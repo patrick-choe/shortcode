@@ -14,27 +14,31 @@
 
 단, 소수점은 2자리까지만 표시한다.
 
-예제 코드
+## 예제 코드
 
-JavaScript 111자
+JavaScript
 
 ```js
-o=require('os'),c=a=>(a/(1024*1024)).toFixed(2),t=c(o.totalmem());console.log(`${t-c(o.freemem())}MB / ${t}MB`)
+const os = require('os')
+
+console.log(`${(os.totalmem() - (os.freemem() / (1024 * 1024))).toFixed(2)}MB / ${(os.totalmem() / (1024 * 1024)).toFixed(2)}MB`)
 ```
 
-Python 103자
+Python
 
 ```py
 import psutil
-r=psutil.virtual_memory()
-e=1024*1024
-print(f'{round(r[3]/e,2)}MB / {round(r[0]/e,2)}MB')
+
+memory = psutil.virtual_memory()
+
+print(f'{round(memory[3] / (1024 * 1024), 2)}MB / {round(memory[0] / (1024 * 1024), 2)}MB')
 ```
 
-C# 149자
+C#
 
 ```csharp
-var c=new ComputerInfo();Write($"{Format("{0:0.00}",c.AvailablePhysicalMemory/1000000f)}MB / {Format("{0:0.00}",c.TotalPhysicalMemory/1000000f)}MB");
+var c = new ComputerInfo();
+Write($"{Format("{0:0.00}", c.AvailablePhysicalMemory / 1000000f)}MB / {Format("{0:0.00}", c.TotalPhysicalMemory / 1000000f)}MB");
 ```
 
 ## 가장 짧은 코드
