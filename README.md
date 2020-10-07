@@ -38,19 +38,9 @@ print(([lambda:'wasans']*5000)[1234]())
 [초대링크](https://discord.gg/7dQTTcA);
 
 ## 숏코딩 규칙;
-`;`를 이용해서 한 줄에 여러 코드를 작성하는것은 안됩니다;
+`;`를 이용해서 한 줄에 여러 코드를 작성해도 됩니다;
 
 `;`가 필수가 아닌 프로그래밍 언어는 `;` 를 작성하지 않아도 됩니다;
-
-(안좋은 예);
-```javascript
-import {sans} from 'sans';console.log(sans)
-```
-(좋은 예);
-```javascript
-import {sans} from 'sans'
-console.log(sans)
-```
 
 `줄바꿈`은 1글자로 취급합니다. 그리고 당연히 공백은 하나당 1글자고요;
 
