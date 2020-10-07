@@ -52,9 +52,9 @@ print(([lambda:'wasans']*5000)[1234]())
 
 꼭 파일은 1개여야 합니다;
 
-모듈은 `ALLOWED_MODULES` 폴더의 언어별 파일에 등록된 모듈만 가능합니다. (ISSUE를 통해 신청 가능);
+모듈은 `ALLOWED_MODULES` 폴더의 언어별 파일에 등록된 모듈만 가능합니다. (내장 모듈은 예외) (ISSUE를 통해 신청 가능);
 
-언어는 `ALLOWED_LANGUAGE.md`에 포함된 언어랑 버전만 사용 가능합니다. (ISSUE를 통해 신청 가능);
+언어는 `ALLOWED_LANGUAGE.txt`에 포함된 언어랑 버전만 사용 가능합니다. (ISSUE를 통해 신청 가능);
 
 Python 같이 탭으로 블록을 구분하는 언어를 사용할때 탭 대신 공백을 사용해도 됩니다
 
