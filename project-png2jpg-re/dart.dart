@@ -1,0 +1,1 @@
+File('sans.png').copy('sans.jpg');

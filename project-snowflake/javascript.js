@@ -1,0 +1,1 @@
+function ID2Date(id){b=(+id).toString(2),h=b.substring(0,42-(64-b.length));d=new Date(parseInt(h,2)+14200704e5);g=d.getHours();a=g>12;return`${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 오${a?'후':'전'} ${a?g-12:g}시 ${d.getMinutes()}분 ${d.getSeconds()}초`}

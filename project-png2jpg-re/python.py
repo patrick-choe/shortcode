@@ -1,0 +1,1 @@
+__import__('os').rename('sans.png','sans.jpg')
