@@ -2,7 +2,7 @@
 
 <p align="center">
     <span>한국어</span> |
-    <a href="README_en.md">~~English~~</a>
+    <a href="README_en.md"><del>English</del></a>
 </p>
 
 숏코딩(영어로는 `Golf Coding`)은 말 그대로 **코드의 기능은 같게 하면서 코드를 최대한 짧게 짜는것**입니다;
