@@ -52,6 +52,8 @@ Newline is one letter. And space is also one letter;
 
 Only one file is possible;
 
+Main function, class etc could be skipped;
+
 Only modules that are in the folder `ALLOWED_MODULES` could be used (Except for Built-in Modules) (Could be applied by ISSUES);
 
 Only languages that are in the file `ALLOWED_LANGUAGE.txt` could be used (Could be applied by ISSUES);
