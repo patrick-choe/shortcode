@@ -8,3 +8,11 @@
 ```
 https://userwiki.xyz/favicon.ico
 ```
+
+## 가장 짧은 코드
+
+`Kotlin` 102자
+
+```kotlin
+print(Regex("(?<=c=\").*?(?=\")").find(java.net.URL("https://userwiki.xyz/battle").readText())?.value)
+```
