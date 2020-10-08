@@ -1,2 +1,2 @@
-//34 choshinyoung
+// 34 choshinyoung
 File('sans.png').copy('sans.jpg');

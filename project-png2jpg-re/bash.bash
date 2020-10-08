@@ -1,1 +1,0 @@
-mv sans.png sans.jpg

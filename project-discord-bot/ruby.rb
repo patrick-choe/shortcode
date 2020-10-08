@@ -1,3 +1,4 @@
+# 113 parangee
 require 'discordrb'
 b=Discordrb::Bot.new token:'토큰'
 b.message with_text:'!ping' do |e|
