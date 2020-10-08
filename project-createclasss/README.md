@@ -41,8 +41,8 @@ class waClass:
 
 ## 가장 짧은 코드
 
-`Kotlin` 59자
+`Kotlin` 54자
 
 ```kotlin
-class waClass(var a:String){fun hi(){println("${a}, 샌즈.")}}
+class waClass(var a:String){fun hi()=print("$a, 샌즈.")}
 ```
