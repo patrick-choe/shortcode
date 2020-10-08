@@ -1,1 +1,0 @@
-function ID2Date(id){b=(+id).toString(2),h=b.substring(0,42-(64-b.length));return require('moment')(parseInt(h,2)+14200704e5).locale('ko').format('YYYY년 MMM Do a h시 m분 s초')}
