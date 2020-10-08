@@ -16,7 +16,7 @@ Insider could `Push` to do something.
 To add a language the Insider must enter the language name and version in the file `ALLOWED_LANGUAGE.txt`. (Example: `SansScript 1.0.0`)
 
 ### Add module
-To add a module the Insider must check the content below and enter the module name in the file `ALLOWED_MODULES/{language name}.txt` (Example: `PingPongTool`)
+To add a module the Insider must check the content below and enter the module name in the file `ALLOWED_MODULES/{language name}.txt` (Example: `discord.py`)
 
 #### Check
 - Is the language in the file `ALLOWED_LANGUAGE.txt`?

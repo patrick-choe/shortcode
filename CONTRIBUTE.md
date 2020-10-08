@@ -15,7 +15,7 @@
 언어를 추가하려면 `ALLOWED_LANGUAGE.txt`에 언어 이름과 버전을 입력하시면 됩니다. (예: `SansScript 1.0.0`)
 
 ### 모듈 추가
-모듈을 추가하려면 아래 항목을 체크하고 `ALLOWED_MODULES/{언어 이름}.txt`에 모듈 이름을 입력하시면 됩니다. (예: `PingPongTool`)
+모듈을 추가하려면 아래 항목을 체크하고 `ALLOWED_MODULES/{언어 이름}.txt`에 모듈 이름을 입력하시면 됩니다. (예: `discord.py`)
 
 #### 체크
 - 언어가 `ALLOWED_LANGUAGE.txt`에 포함되있나?

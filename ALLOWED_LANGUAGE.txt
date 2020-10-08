@@ -11,3 +11,4 @@ Dart 2.7.2
 Rust 1.46.0
 TypeScript 4
 Ruby 2.7.0
+F# 4.7
